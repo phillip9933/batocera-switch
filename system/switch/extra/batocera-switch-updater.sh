@@ -1100,7 +1100,7 @@ fi
 ##
 if [ "$3" = "RYUJINX" ]; then
 T=$THEME_COLOR_RYUJINX
-wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/ryujinx1403.tar.gz" "https://dl.buzzheavier.com/1849410197969260544?v=1729770792-5kWGENldt0XEWprA1YI%2FffduHU0DyZNzATV7zGESZBA%3D"
+wget -q --show-progress --tries=10 --no-check-certificate --no-cache --no-cookies -O "/userdata/system/switch/ryujinx1403.tar.gz" "https://archive.org/download/ryujinx-1.1.1403_202410/ryujinx-1.1.1403-linux_x64.tar.gz"
 link_ryujinx="/userdata/system/switch/ryujinx1403.tar.gz"
 version="1403"
 # --------------------------------------------------------
